@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+
+
+
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #141414;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  gap: 50px;
+  place-items: center;
+  padding: 24px;
+}
